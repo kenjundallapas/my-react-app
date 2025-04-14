@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import projectDescriptions from '../projectDescriptions';
-import firstPortfolio from '../images/Portfolio.jpg';
-import audioEditing from '../images/Audio.jpg';
-import videoEditing from '../images/Video.jpg';
+import firstPortfolio from '../images/Portfolio.png';
+import audioEditing from '../images/Audio.png';
+import videoEditing from '../images/Video.png';
 import frontendProject from '../images/Frontend.png';
 
 const Projects = () => {
