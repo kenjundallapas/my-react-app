@@ -1,6 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import projectDescriptions from '../projectDescriptions';
+import firstPortfolio from '../images/Portfolio.jpg';
+import audioEditing from '../images/Audio.jpg';
+import videoEditing from '../images/Video.jpg';
+import frontendProject from '../images/Frontend.png';
 
 const Projects = () => {
   return (
@@ -12,7 +16,7 @@ const Projects = () => {
           <p className="text-gray-600 mt-2 dark:text-gray-300">{projectDescriptions['First Portfolio']}</p>
           <div className="mt-4">
             <img
-              src="/images/Portfolio.png"
+              src={firstPortfolio}
               alt="First Portfolio"
               className="w-full rounded-md"
             />
@@ -23,7 +27,7 @@ const Projects = () => {
           <p className="text-gray-600 mt-2 dark:text-gray-300">{projectDescriptions['Audio Editing']}</p>
            <div className="mt-4">
             <img
-              src="/images/Audio.jpg"
+              src={audioEditing}
               alt="Audio Editing"
               className="w-full rounded-md"
             />
@@ -34,7 +38,7 @@ const Projects = () => {
           <p className="text-gray-600 mt-2 dark:text-gray-300">{projectDescriptions['Video Editing']}</p>
           <div className="mt-4">
             <img
-              src="/images/Video.png"
+              src={videoEditing}
               alt="Video Editing"
               className="w-full rounded-md"
             />
@@ -45,7 +49,7 @@ const Projects = () => {
           <p className="text-gray-600 mt-2 dark:text-gray-300">{projectDescriptions['Frontend Project']}</p>
           <div className="mt-4">
             <img
-              src="/images/Frontend.png"
+              src={frontendProject}
               alt="Frontend Project"
               className="w-full rounded-md"
             />
