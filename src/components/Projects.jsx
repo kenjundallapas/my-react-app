@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import projectDescriptions from '../projectDescriptions';
-import firstPortfolio from '../images/Portfolio.png';
-import audioEditing from '../images/Audio.png';
-import videoEditing from '../images/Video.png';
-import frontendProject from '../images/Frontend.png';
+import Portfolio from '../images/Portfolio.png';
+import Audio from '../images/Audio.png';
+import Video from '../images/Video.png';
+import Frontend from '../images/Frontend.png';
 
 const Projects = () => {
   return (
@@ -16,7 +16,7 @@ const Projects = () => {
           <p className="text-gray-600 mt-2 dark:text-gray-300">{projectDescriptions['First Portfolio']}</p>
           <div className="mt-4">
             <img
-              src={firstPortfolio}
+              src={Portfolio}
               alt="First Portfolio"
               className="w-full rounded-md"
             />
@@ -25,9 +25,9 @@ const Projects = () => {
         <div className="project-card dark:bg-gray-800 dark:shadow-lg">
           <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Audio Editing</h3>
           <p className="text-gray-600 mt-2 dark:text-gray-300">{projectDescriptions['Audio Editing']}</p>
-           <div className="mt-4">
+          <div className="mt-4">
             <img
-              src={audioEditing}
+              src={Audio}
               alt="Audio Editing"
               className="w-full rounded-md"
             />
@@ -38,7 +38,7 @@ const Projects = () => {
           <p className="text-gray-600 mt-2 dark:text-gray-300">{projectDescriptions['Video Editing']}</p>
           <div className="mt-4">
             <img
-              src={videoEditing}
+              src={Video}
               alt="Video Editing"
               className="w-full rounded-md"
             />
@@ -49,7 +49,7 @@ const Projects = () => {
           <p className="text-gray-600 mt-2 dark:text-gray-300">{projectDescriptions['Frontend Project']}</p>
           <div className="mt-4">
             <img
-              src={frontendProject}
+              src={Frontend}
               alt="Frontend Project"
               className="w-full rounded-md"
             />
